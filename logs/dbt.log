@@ -1,0 +1,103 @@
+
+
+============================== 2022-07-13 09:22:06.044994 | 36e6b405-8870-4726-a444-0e9811fd3c71 ==============================
+09:22:06.044999 [info ] [MainThread]: Running with dbt=1.1.0
+09:22:06.045229 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learndbt_proj', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+09:22:06.045293 [debug] [MainThread]: Tracking: tracking
+09:22:06.056928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ab1e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ab1ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ab1940>]}
+09:22:06.057894 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.9/site-packages/dbt/include/starter_project
+09:26:18.745673 [info ] [MainThread]: Profile learndbt_proj written to /Users/elenipardali/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+09:26:18.747716 [info ] [MainThread]: 
+Your new dbt project "learndbt_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+09:26:18.748828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102801a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ab1430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ab1160>]}
+
+
+============================== 2022-07-13 09:31:22.089811 | db36515a-ffea-4c33-bd76-471707c48a26 ==============================
+09:31:22.089817 [info ] [MainThread]: Running with dbt=1.1.0
+09:31:22.090144 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learndbt_ep', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+09:31:22.090211 [debug] [MainThread]: Tracking: tracking
+09:31:22.097988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048642b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100ac94f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100ac9c70>]}
+09:31:22.098931 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.9/site-packages/dbt/include/starter_project
+09:33:10.513116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f29760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f29490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f29880>]}
+
+
+============================== 2022-07-13 09:33:23.370955 | 1c91f0fc-4876-45cf-8641-19e45fe4e0d0 ==============================
+09:33:23.370960 [info ] [MainThread]: Running with dbt=1.1.0
+09:33:23.371137 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+09:33:23.371207 [debug] [MainThread]: Tracking: tracking
+09:33:23.379116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eec4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eecb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ee2ca0>]}
+09:33:23.495110 [debug] [MainThread]: Executing "git --help"
+09:33:23.504603 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+09:33:23.505056 [debug] [MainThread]: STDERR: "b''"
+09:33:23.505421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ee2ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089b50a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089b58e0>]}
+
+
+============================== 2022-07-13 09:33:45.275906 | ad4a97f2-9d58-4a35-8fe6-df2d9f314faf ==============================
+09:33:45.275911 [info ] [MainThread]: Running with dbt=1.1.0
+09:33:45.276098 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+09:33:45.276174 [debug] [MainThread]: Tracking: tracking
+09:33:45.282489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e13670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e133d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e1c670>]}
+09:33:45.283071 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/elenipardali/.dbt
+09:33:45.283260 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e133d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e1c670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e1c7c0>]}
+
+
+============================== 2022-07-13 12:22:13.172159 | 714ffbe8-c88a-4312-8164-110600301ccd ==============================
+12:22:13.172164 [info ] [MainThread]: Running with dbt=1.1.0
+12:22:13.172506 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learndbt_ep', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+12:22:13.172570 [debug] [MainThread]: Tracking: tracking
+12:22:13.180309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041e40a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f6d4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f6d430>]}
+12:22:13.181181 [info ] [MainThread]: A project called learndbt_ep already exists here.
+12:22:13.181354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f6d4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100f6da60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041d72b0>]}
+
+
+============================== 2022-07-13 13:13:43.298816 | 309b4985-883f-41ff-8382-e250eda4e522 ==============================
+13:13:43.298821 [info ] [MainThread]: Running with dbt=1.1.0
+13:13:43.299276 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learn_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+13:13:43.299339 [debug] [MainThread]: Tracking: tracking
+13:13:43.307165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071a42b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ae14f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ae1c70>]}
+13:13:43.308307 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.9/site-packages/dbt/include/starter_project
+13:16:17.607665 [info ] [MainThread]: Profile learn_dbt written to /Users/elenipardali/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+13:16:17.609641 [info ] [MainThread]: 
+Your new dbt project "learn_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+13:16:17.610462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ae14f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb17c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10719aca0>]}
+
+
+============================== 2022-07-13 13:16:45.662027 | 41559c8b-a60e-4a2e-bfff-8d90175715e2 ==============================
+13:16:45.662032 [info ] [MainThread]: Running with dbt=1.1.0
+13:16:45.662206 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/elenipardali/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+13:16:45.662269 [debug] [MainThread]: Tracking: tracking
+13:16:45.668312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a677c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1027e9a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a702e0>]}
+13:16:45.668911 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/elenipardali/.dbt
+13:16:45.669089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1027e9a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a702e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a70190>]}
